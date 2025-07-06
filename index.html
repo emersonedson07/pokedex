@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pokédex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="pokedex">
+  <button id="toggle-button" aria-pressed="true">Pokédex: Ligada</button>
+  <div class="pokedex-content">
+    <div class="left">
+      <h1 id="pokemon-name">Carregando...</h1>
+      <div class="pokemon-image-wrapper">
+        <img id="pokemon-image" src="" alt="Imagem do Pokémon" class="pokemon-image" />
+      </div>
+      <div class="number" id="pokemon-number"></div>
+      <div class="type-species" id="species"></div>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Nome ou Número" />
+        <button onclick="searchPokemon()">Buscar</button>
+      </div>
+      <div class="nav-buttons">
+        <button onclick="previousPokemon()">Anterior</button>
+        <button onclick="nextPokemon()">Próximo</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="info-box"><strong>Tipo:</strong><br /><div class="types" id="types"></div></div>
+      <div class="info-box"><strong>Habilidades:</strong><br /><div id="abilities"></div></div>
+      <div class="info-box stats"><strong>Status Base:</strong><br /><div id="stats"></div></div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
