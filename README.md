@@ -34,7 +34,7 @@ Criar uma interface funcional e amigável onde é possível visualizar, pesquisa
 ## 🔗 Demonstração
 
 ➡️ [Acessar projeto online no GitHub Pages](https://emersonedson07.github.io/pokedex)  
-(Atualize o link conforme o nome do repositório)
+
 
 ---
 
